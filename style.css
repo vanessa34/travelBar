@@ -1,0 +1,315 @@
+*{margin: 0;padding: 0;}
+.logo{
+    margin-left: 5rem;
+    padding: 1rem 0rem;
+}
+.header{width: 1920px;height: 850px;margin: 0 auto;
+    border-top: solid #f47927;}
+.box{
+    width: 1920px;height: 770px;
+    background-image: url(/images/wrapper.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    position:relative;
+} 
+.planning_top{
+    position: absolute;
+    bottom:-5px;
+    display: block;
+}
+.bigBox{
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 3rem;
+    background: #f8f8fa;
+    z-index: 1;
+}
+.planning_i1{
+    float: left;
+    padding: 50px 0px 0px 80px;
+    z-index: -0;
+    position: absolute;
+}
+.planning_i2{
+    float: left;
+    position: absolute;
+    right: 0px;
+    padding: 500px 60px 0 0;
+}
+.lottery_i1{
+    right: 370px;
+    padding-top: 1850px;
+    position: absolute;
+    float:right;
+    z-index: 2;
+}
+.middle{
+    width: 900px;
+    height: 2000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.middle_top {width: 900px; padding: 7rem 0rem 2rem;display:flex; align-items: center;}
+.middle_top img {width: 800px; display: block; margin: auto;}
+
+.Illustrating{width: 450px; height: 450px; float: left;
+    display: flex; align-items: center; flex-wrap: wrap; }
+.Illustrating img{max-width: 100%;
+}
+.cards{width: 450px; height: 450px; float: left;
+    display: flex; align-items: center; flex-wrap: wrap;}
+.imgbox{height:100px;width: 300px;margin: 0 auto; display:flex; align-items: center;}
+.imgbox img{position: absolute;}
+.imgbox label{width: inherit;text-align: center;font-size: 22px;position: absolute;}
+.brush{margin: 0 auto;width: 250px; padding:30px 20px 0px;}
+.v{margin: 0 auto;padding:10px 0px 0px 270px;} 
+.btn {
+    width: 250px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #ffefd5;
+    text-align: center;
+    background: #f47927;
+    border: 2px solid SaddleBrown;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .1s;
+    box-shadow: 3px 4px #000;
+    margin: 150px 0px 0px 110px;
+    float: right;
+}
+.btn:hover {transform: scale(1.05);}
+.btn:active {
+    /* :active是滑鼠點擊元素的狀態 */
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
+}
+.btn img{float: right;padding: 13px 10px 0px 0px;}
+.btn a{color: #fff; text-decoration:none}
+
+.tv{position: relative;
+}
+.magnifier{width: 200px;position: absolute; left: 415px;padding-bottom: 110px;
+}
+
+.mountain{width: 1920px;height: 240px;margin: 0 auto;  position: relative;}
+.orange{width: 1920px;height: 2200px;margin: 0 auto; background: #f47927;}
+.oBox{
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+.orangeBox{
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    padding: 70px 0px;
+}
+
+.lottery_bg_top{position: absolute;z-index: -5;
+}
+.lottery_t1{
+    display: block;
+    margin: 100px auto 0px;
+}
+.lottery_i2{
+    float: left;
+    position: absolute;
+    left: 270px;
+    bottom: 0px;
+    overflow: hidden;
+}
+.lottery_t1 img{width: 700px; }
+.orange label{color: #fff; text-align: center; display: block;padding-top: 5rem;letter-spacing:1px}
+.orangeBox ul {margin:0 auto; display: inline-block;}
+
+.list li {list-style-type:none;width:30%;margin:0 1%;float:left;padding: 0px 6px;}
+.list li img{ width: 300px; }
+.card{  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    flex: 1 1 300px;}
+
+.card img{width: 300px;}
+.list h3,p{color: #fff;width: 250px;text-align: center;margin: 0 auto; padding: 10px 0 3px;}
+
+.list p{padding-top: 5px;}
+.mTop {margin: 100px 0px 0px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+}
+.mTop img{height: 350px;}
+
+
+.mTop img:hover {transform: scale(1.05);}
+.mTop img:active {
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
+}
+.mTop img{float: left;padding: 13px 10px 0px 0px;}
+
+
+.lottery_i4 {
+    float: left;
+    padding: 550px 0px 0px 80px;
+    z-index: 1;
+    position: absolute;
+}
+
+.lottery_i3 {
+    float: left;
+    padding: 400px 0px 0px 1500px;
+    z-index: 1;
+    position: absolute;
+}
+.activitySummary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    margin-top: 200px;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    position: relative;
+    width: 800px;
+    height: 800px;
+
+}
+
+.sheet {
+    text-align: center;
+    position: relative;
+}
+
+.lottery_info_t {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* transform水平和垂直居中 */
+    z-index: 5; /* 设z-index在sheet上方 */
+}
+.sheet {
+    font-size: 24px;
+}
+
+.container {
+    width: 300px; /* 設定方框寬度 */
+    padding: 20px; /* 設定內邊距 */
+    background-color: white; /* 設定方框背景色 */
+    text-align: center; /* 文字水平置中 */
+    line-height: 2; /* 行高，控制文字垂直置中 */
+  }
+.container p {z-index: 1;
+    color: #4b4b4b;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.536); /* 灰色底線 */
+    margin:25px; /* 底線與下一行的間距 */
+    width: 700px;
+    }
+.lottery_p1{z-index: 5;
+}
+.footer{
+    max-width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+
+}
+.footer a{
+    text-decoration: none; /* 消除底線 */
+    color: #4b4b4b;
+    font: 1.5rem sans-serif;
+    padding: 10px;
+
+    transition: transform 0.3s ease; /* 添加過渡效果，使縮放有平滑的變化 */
+}
+.footer ul{
+padding: 20px;
+}
+.footer a:hover {color: #e46918;}
+.footer a:active {
+    box-shadow: inset 0 0 10px 1px #8c380033;
+}
+
+
+@media screen and  (max-width:480px ){
+    .logo{margin-left: 0rem;display: flex;justify-content: center;}
+    .header{width: 400px;}
+    .box{width: 400px;} 
+    .bigBox{width: 400px;}
+    .mountain{width: 400px;}
+    .orange{width: 400px;}
+    .middle{height: 2000px;width: 400px;}
+    .lottery_i1{right: 0px;}    
+    .lottery_i1 img{width: 70%;}
+    .lottery_i2{left: 20px;}
+    .lottery_i2 img{width: 70%;}
+    .lottery_bg_top{overflow: hidden;width: 400px;}
+    .planning_top{overflow: hidden;width: 400px;}
+    .orangeBox{width: 400px;}
+    .middle_top{margin-top: 100px;width: 700px;}
+    .middle_top img{width: 300px;margin:0px auto;}
+    .planning_i1{padding:0px 70px 0px 0px;}
+    .planning_i1 img{width: 70%;}
+    .planning_i2{padding: 710px 0px 0px 0px;}
+    .planning_i2 img{width: 300px;}
+}
+@media  screen and (min-width: 481px) and (max-width: 720px) {
+    .logo{margin-left: 0rem;display: flex;justify-content: center;}
+    .header{width: 700px;}
+    .box{width: 700px;} 
+    .bigBox{width: 700px;}
+    .mountain{width: 700px;}
+    .orange{width: 700px;}
+    .middle{height: 2000px;width: 700px;}
+    .lottery_i1{right: 0px;}    
+    .lottery_i1 img{width: 70%;}
+    .lottery_i2{left: 20px;}
+    .lottery_i2 img{width: 70%;}
+    .lottery_bg_top{overflow: hidden;width: 700px;}
+    .planning_top{overflow: hidden;width: 700px;}
+    .orangeBox{width: 700px;}
+    .middle_top{margin-top: 100px;width: 700px;}
+    .middle_top img{width: 600px;margin:0px auto;}
+    .planning_i1{padding:0px 70px 0px 0px;}
+    .planning_i1 img{width: 70%;}
+    .planning_i2{padding: 710px 0px 0px 0px;}
+    .planning_i2 img{width: 300px;}
+}
+
+@media  screen and (min-width: 721px) and (max-width: 1024px) {
+    .logo{margin-left: 0rem;display: flex;justify-content: center;}
+    .header{width: 960px;}
+    .box{width: 960px;} 
+    .bigBox{width: 960px;}
+    .mountain{width: 960px;}
+    .orange{width: 960px;}
+    .middle{height: 2000px;}
+    .lottery_i1{right: 0px;}    
+    .lottery_i1 img{width: 70%;}
+    .lottery_i2{left: 20px;}
+    .lottery_i2 img{width: 70%;}
+    .lottery_bg_top{overflow: hidden;width: 960px;}
+    .planning_top{overflow: hidden;width: 960px;}
+    .orangeBox{width: 960px;}
+    .middle_top{margin-top: 100px;}
+    .planning_i1{padding:0px 70px 0px 0px;}
+    .planning_i1 img{width: 70%;}
+    .planning_i2{padding: 710px 0px 0px 0px;}
+    .planning_i2 img{width: 300px;}
+}
